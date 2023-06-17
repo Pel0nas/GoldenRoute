@@ -17,7 +17,8 @@ Eilon Ben Gil's project
 האתר רץ על פורט localhost:8080
 דאטה בייס: מסודר בטבלה שנקראת operation_details, מכילה בתוכה עמודות בשם: cargo_weight, min_takeoff_distance, cargo_to_destroy, takeoff_time
 
-כדי להריץ את המערכת יש להריץ את שרת הדאטה בייס על ההוסט הדיפולטי localhost:5432, את השרת על הוסט localhost:8080, וכדי להריץ את האתר יש לכתוב בטרמינל את הפקודות הבאות:
+כדי להריץ את המערכת יש להריץ את שרת הדאטה בייס על ההוסט הדיפולטי localhost:5432.
+בשרת יש ללכת לlifecycle של maven ולעשות install ולאחר מכן יש להריץ על הוסט localhost:8000 (מוגדר כך בapplication.properties כבר), וכדי להריץ את האתר יש לכתוב בטרמינל את הפקודות הבאות:
 npm install
 npm run serve
 
